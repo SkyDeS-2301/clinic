@@ -1,0 +1,244 @@
+/* Start */
+
+.start {
+    padding: 80px 0;
+    background: #F0FDE9;
+}
+
+.start__inner {
+    display: flex;
+}
+
+.start__info {
+    margin-bottom: 40px;
+}
+
+.start__title {
+    margin-bottom: 15px;
+}
+
+.start__text {
+    width: 93%;
+
+    word-spacing: 5px;
+}
+
+.start__services {
+    width: 60%;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px 60px;
+    margin-bottom: 80px;
+}
+
+.start__services-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.start__services-item-img {
+    width: 42px;
+    height: 42px;
+}
+
+.start__services-item-text {
+    width: 250px;
+}
+
+.start__inner-img {
+    width: 544px;
+    height: 591px;
+    margin-top: -90px;
+
+    z-index: 10;
+}
+
+/* Services */
+
+.services__inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.services__item {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.services__wrapper {
+    max-width: 225px;
+    margin: 0 auto;
+    padding: 15px;
+
+    border: 2px solid #000;
+    border-radius: 25px;
+
+    margin-bottom: 15px;
+}
+
+.services__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Why */
+
+.why {
+    background: url(../images/bg-why.png);
+}
+
+.why__info {
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+.why__title {
+    margin-bottom: 10px;
+}
+
+.why__subTitle {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.why__inner {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 45px;
+
+    padding-bottom: 100px;
+}
+
+.why__information {
+    display: flex;
+    gap: 15px;
+
+    margin-bottom: 20px;
+}
+
+.why__item-img {
+    width: 30px;
+    height: 30px;
+}
+
+.why__item-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Document */
+
+.document {
+    padding-bottom: 0;
+}
+
+.document__inner {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 35px;
+}
+
+.docoment__link {
+    margin-bottom: 20px;
+    display: block;
+    position: relative;
+
+}
+
+.document__glass {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    width: 35px;
+    height: 35px;
+}
+
+.document__name {
+    text-align: center;
+    font-weight: 300;
+}
+
+/* Why */
+
+.rewiew {
+    background: url(../images/benefits-left.jpg) no-repeat left center, url(../images/benefits-right.jpg) no-repeat right center;
+}
+
+.rewiew__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    padding-top: 50px;
+}
+
+.business__text {
+    width: 730px;
+    margin: 0 auto;
+    
+    line-height: 1.4;
+}
+
+/* Application */
+
+.application {
+    background: url(../images/application-bg.jpg) 50%/cover no-repeat;
+    margin-top: 75px;
+}
+.application__inner {
+    text-align: center;
+}
+.application__title {
+    margin-bottom: 60px;
+}
+
+/* Map */
+.map {
+    padding: 50px 0;
+}
+.map__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.map__address {
+    position: relative;
+}
+.map__address::before {
+    position: absolute;
+    content: '';
+    background: url(../images/marker.png) 50%/cover no-repeat;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 37%;
+}
+.map__tell {
+}
+.map__email {
+}
+
+.map__animation {
+    transition: all .3s;
+}
+.map__animation:hover {
+    color: #777777;
+}
+
+.map__block {
+    display: block;
+    margin-bottom: 5px;
+}
