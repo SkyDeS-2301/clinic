@@ -78,15 +78,11 @@ a {
     padding: 100px 0;
 }
 
-.services__title,
-.document__title,
-.rewiew__title,
-.business__title {
-    text-align: center;
+.arrow__title {
+	text-align: center;
     margin-bottom: 75px;
     position: relative;
 }
-
 .services__arrow {
     position: absolute;
     top: 60px;
