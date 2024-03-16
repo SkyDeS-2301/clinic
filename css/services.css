@@ -1,0 +1,40 @@
+.main {
+	background: #f0fde9;
+}
+.nav__title {
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+	border-bottom: 5px solid black;
+
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+.nav__title-link {
+	border: 2px solid black;
+	padding: 7px;
+	border-radius: 15px;
+}
+.nav__list {
+	flex-wrap: wrap;
+	column-gap: 175px;
+	row-gap: 30px;
+}
+.nav__item {
+	text-align: center;
+}
+.information {
+	padding: 25px 0;
+}
+.information__title {
+	text-align: center;
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+.information__list {
+	display: grid;
+	gap: 10px;
+}
+.information__item {
+	font-size: 20px;
+}

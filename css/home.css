@@ -226,11 +226,6 @@
     top: 0;
     left: 37%;
 }
-.map__tell {
-}
-.map__email {
-}
-
 .map__animation {
     transition: all .3s;
 }
