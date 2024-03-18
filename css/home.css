@@ -183,6 +183,7 @@
 .business__text {
     width: 730px;
     margin: 0 auto;
+    font-size: 26px;
     
     line-height: 1.4;
 }
